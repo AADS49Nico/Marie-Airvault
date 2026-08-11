@@ -176,7 +176,7 @@ const ENV = (typeof process !== "undefined" && process.env) ? process.env : {};
 // SANS REPLI : la config vient UNIQUEMENT des variables d environnement Vercel.
 // Si elles sont absentes, le garde-fou "Portail non configure" s affiche.
 // C est le test qui prouve que les variables sont bien lues.
-const SUPABASE_URL = "http://mpznaidttwlwhklknsin.supabase.co";
+const SUPABASE_URL = "https://mpznaidttwlwhklknsin.supabase.co";
 const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1wem5haWR0dHdsd2hrbGtuc2luIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODYzODY1OTQsImV4cCI6MjEwMTk2MjU5NH0.GrZ9w0vdHvcO4vsFmDu9FPVRE1rP177UgRaSslowLQw";  // <-- cle anon (eyJ...) de Mathez
 
 // ============================================================
