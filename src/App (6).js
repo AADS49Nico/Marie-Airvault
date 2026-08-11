@@ -176,8 +176,8 @@ const ENV = (typeof process !== "undefined" && process.env) ? process.env : {};
 // SANS REPLI : la config vient UNIQUEMENT des variables d environnement Vercel.
 // Si elles sont absentes, le garde-fou "Portail non configure" s affiche.
 // C est le test qui prouve que les variables sont bien lues.
-const SUPABASE_URL = "COLLE_ICI_URL_MATHEZ";  // <-- https://evrkygslfjogpymjphsz.supabase.co de Mathez
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV2cmt5Z3NsZmpvZ3B5bWpwaHN6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODYzODYzMDMsImV4cCI6MjEwMTk2MjMwM30.j8YNEmE4Qxcp-eKtY_6-PK2T7aCXw6iGT_D_qe670do";  // <-- cle anon (eyJ...) de Mathez
+const SUPABASE_URL = "http://mpznaidttwlwhklknsin.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1wem5haWR0dHdsd2hrbGtuc2luIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODYzODY1OTQsImV4cCI6MjEwMTk2MjU5NH0.GrZ9w0vdHvcO4vsFmDu9FPVRE1rP177UgRaSslowLQw";  // <-- cle anon (eyJ...) de Mathez
 
 // ============================================================
 // MULTI-SITES
