@@ -1,16 +1,22 @@
 {
-  "name": "Portail AADS - Marie Airvault",
-  "short_name": "AADS Portail",
-  "description": "Portail de suivi sanitation 3D - AADS",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#0f1e38",
-  "theme_color": "#1a2540",
-  "orientation": "any",
-  "icons": [
-    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
-  ],
-  "categories": ["business", "utilities"],
-  "lang": "fr"
+  "name": "react",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  }
 }
